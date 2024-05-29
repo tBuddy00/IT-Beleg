@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="de">
+<head>
+    <title>IT Beleg</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="ROBOTS" content="INDEX, FOLLOW">
+    <meta name="description" content="IT Beleg">
+    <meta name="theme-color" content="#c3cbd9">
+
+    <link rel="manifest" href="/assets/manifest/manifest.json">
+    <link rel="icon" sizes="128x128" href="/assets/manifest/icons/icon-128x128.png">
+    <link rel="stylesheet" href="/assets/css/mvp.css" type="text/css">
+    <script type="module" src="/assets/scripts/mvp.js" defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vexflow/1.2.88/vexflow-min.js"></script>
+
+    <!-- Katex -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+</head>
+
+<body>
+    <header>
+        <span>...</span>
+        <noscript>Sie haben JavaScript deaktiviert. Diese Seite benötigt zwingend JavaScript.</noscript>
+    </header>
+    <div class="container_main">
+        <div class="grid_item_container_navbar">
+            <nav id="navmenu"></nav>
+        </div>
+        <div class="grid_item_container_main">
+            <main>
+                <div id="main_game"></div>
+                <p id="text_message"></p>
+            </main>
+        </div>
+        <div class="grid_item_container_sidebar">
+            <aside>
+                <div class="netz_container">
+                    <img id="netz_img" src="/assets/images/gear-spinner.svg" alt="network">
+                    <span id="netz_text">Lädt Daten...</span>
+                </div>
+            </aside>
+        </div>
+    </div>
+    <footer>©2024, Taylan Özer | Belegarbeit: Internettechnologien</footer>
+    <script type="module" src="/assets/scripts/main.js"></script>
+</body>
+</html>

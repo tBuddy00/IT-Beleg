@@ -1,0 +1,63 @@
+= Anwenderdokumentation
+
+== Belegarbeit Internettechnologien
+
+- *Dozent: Herr Prof. Dr.Ing. Jörg Vogt*
+
+- *Abgabedatum: 02.06.2024* 
+
+- *Bearbeiter: Özer, Taylan*
+
+
+== Start der Webanwendung
+
+- *Öffne Visual Studio Code:* 
+
+-> Live Server Extension installieren (gehe zu den Extensions, suche nach "Live Server" und 
+installiere die Extension),
+
+-> Verbindung zu GitHub herstellen (optional) (Stelle sicher, dass du eine Verbindung zu
+ deinem GitHub-Repository hergestellt hast, falls du deine Änderungen verfolgen und
+ versionieren möchtest)
+
+*Allgemein*
+
+Das Web-Quiz umfasst folgende Themenbereiche:
+
+ • Allgemeinwissen,
+ • Internettechnologien,
+ • Mathematik,
+ • Musiktheorie/Notenlehre 
+
+*Aufgabenbereich Allgemeinwissen:*
+
+• Aufgaben zu verschiedenen Themen des Allgemeinwissens
+
+*Aufgabenbereich Internettechnologien:*
+
+• Aufgaben zu verschiedenen Themen der Internettechnologien
+
+*Aufgabenbereich Mathematik:*
+
+• Aufgaben zu verschiedenen mathematischen Themen
+
+*Musiktheorie/Notenlehre:*
+
+• Aufgaben zur Musiktheorie/Notenlehre. Beispiel: Note C wird vorgegeben und der Nutzer, darf nach bestem Wissen diesen Note auswählen. Notenblatt mit Noten sind ebenfalls vorhanden.
+
+*Weitere Informationen:*
+
+Jede Fragestellung bietet vier Auswahlmöglichkeiten, von denen nur eine immer richtig ist und mit einer Punktanzeige visuell auch dargestellt wird. Am Ende des Quiz wird über eine Progressbar angezeigt, wie viele Punkte du erreicht hast und ob du gewonnen oder verloren hast. Neustarten ist auch möglich, auf den für hier vorgesehenen Button.
+
+*Verbesserungsvorschläge:*
+
+Im allgemeinen lässt sich folgendes zum Thema Verbesserungen sagen: Eine bessere 
+Strukturierung des CSS-Designs ist durchaus denkbar, wenn man viel Wert auf die optische Ansicht und die User-Experience legt.
+
+*Bekannte Probleme bzw. Auffälligkeiten:*
+ 
+    • keine
+ 
+*Browser:*
+ 
+ • Auf allen hier genannten Browsern lief die Webanwendung problemlos: Mozilla Firefox, Google Chrome, Opera
