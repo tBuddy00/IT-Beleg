@@ -22,8 +22,8 @@
         "name": "Internettechnologie",
         "type": null,
         "data": [
-            {"a":"Welche Authentifizierung bietet HTTP", "l":["Digest Access Authentication","OTP","OAuth","2-Faktor-Authentifizierung"], "r":0},
-            {"a":"Welches Transportprotokoll eignet sich für zeitkritische Übertragungen", "l":["UDP","TCP","HTTP","Fast Retransmit"], "r":0},
+            {"a":"Welche Authentifizierung bietet HTTP?", "l":["Digest Access Authentication","OTP","OAuth","2-Faktor-Authentifizierung"], "r":0},
+            {"a":"Welches Transportprotokoll eignet sich für zeitkritische Übertragungen?", "l":["UDP","TCP","HTTP","Fast Retransmit"], "r":0},
             {"a":"Was ist das Hauptziel von HTTPS?", "l":["Verbesserung der Sicherheit durch Verschlüsselung","Beschleunigung der Datenübertragung","Erhöhung der Kompatibilität mit älteren Browsern","Optimierung der Serverleistung"], "r":0},
             {"a":"Was bedeutet DNS?", "l":["Domain Name System","Data Network Services","Digital Network Security","Dynamic Network Solutions"], "r":0},
             {"a":"Was bedeutet die Abkürzung HTTP?", "l":["Hoher Tannen Traum der Polizei","Hypertext Transfer Protocol","Hyperlink Text Transfer Protocol","Hypertext Transfer Process"], "r":1},

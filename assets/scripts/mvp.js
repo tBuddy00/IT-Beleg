@@ -211,7 +211,7 @@ class Presenter {
     }
 
     async setTaskTyp(typ){ 
-        View.setMessage("lädt Daten *Fahrstuhl Musik*...");
+        View.setMessage("Lädt Daten *Fahrstuhl Musik*...");
         this.typ = typ;
         this.resetData();
         this.dataType = this.m.getDataIntern()[this.typ].type;
@@ -353,7 +353,7 @@ class View {
         start_btn_container.classList.add("playBtn_container")
         const start_btn = document.createElement("button");
         start_btn.classList.add("playBtn");
-        start_btn.textContent = `${current_menu_name} starten`;
+        start_btn.textContent = `Beginne das Quiz: ${current_menu_name}`;
         start_btn_container.append(start_btn);
         View.maingame.append(start_btn_container);
 
