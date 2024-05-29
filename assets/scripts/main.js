@@ -4,7 +4,7 @@ import Conf from '/conf.js';
 
 const cacheName = Conf.CacheName;
 
-if('serviceWorker' in navigator){ //um service worker zu registrieren.
+if('serviceWorker' in navigator){ 
     window.addEventListener('load', () => {
         navigator.serviceWorker
             .register('/sw_site.js', {type: 'module'})
@@ -20,7 +20,7 @@ const netz_text = document.getElementById("netz_text");
 
 
 
-async function getDataFromCache(itemUrl) { //da isoffline.png geladen wurde, deswegen wird Data von Service Worker abgerufen
+async function getDataFromCache(itemUrl) { 
     try {
         const cache = await caches.open(cacheName);
         const requests = await cache.keys();
@@ -41,3 +41,5 @@ async function getDataFromCache(itemUrl) { //da isoffline.png geladen wurde, des
         return null;
     }
 }
+
+
