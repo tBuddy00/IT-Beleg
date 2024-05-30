@@ -4,9 +4,7 @@ import Conf from '/conf.js';
 
 const cacheName = Conf.CacheName;
 
-const cacheAssets = [
-    '/assets/images/isoffline.png'
-];
+
 
 /* '/',
 '/conf.js',
@@ -24,12 +22,10 @@ const cacheAssets = [
 
 
 self.addEventListener('install', e=>{
-    //console.log("Installed");
     e.waitUntil(
         caches
             .open(cacheName)
             .then(cache => {
-                //console.log('Caching Files');
                 cache.addAll(cacheAssets);
             })
             .then(() => self.skipWaiting())
@@ -38,14 +34,11 @@ self.addEventListener('install', e=>{
 
 
 self.addEventListener('activate', e=>{
-    //console.log("Activated");
-    // remove old caches
     e.waitUntil(
         caches.keys().then(cacheNamesList => {
             return Promise.all(
                 cacheNamesList.map(cache => {
                     if(cache !== cacheName){
-                        //console.log("Clearing Cache");
                         return caches.delete(cache);
                     }
                 })

@@ -13,15 +13,19 @@ document.addEventListener('DOMContentLoaded', async function () {
     p.setMenu();
 });
 
-// ############# Model ###########################################################################
+
 class Model {
     constructor() {
-        this.jsonDataIntern = null; //Data von .json
-        this.jsonDataExtern = null; //Data von dem lokalen Server
-        this.jsonDataExternHTW = null; //Data von HTW-Server
+        //Daten vom .JSON
+        this.jsonDataIntern = null; 
+        
+        this.jsonDataExtern = null; 
+        //Data von HTW-Server
+        this.jsonDataExternHTW = null; 
     }
 
-    async setDataIntern(){ //um Daten von .json zu erhalten
+    //Hieraus erhalten wir die .JSON-Daten
+    async setDataIntern(){ 
         return new Promise((resolve, reject) => {
             var xhr = new XMLHttpRequest();
             xhr.open("GET", "/assets/scripts/data.json", true);
@@ -66,13 +70,14 @@ class Model {
         return this.jsonDataExtern;
     }
     
-    randomInt(min, max){ //random int
+    randomInt(min, max){ 
         const bucketSize = max;
         const bucketIndex = Math.floor(Math.random() * bucketSize);
         return bucketIndex + min;
     }
 
-    async setDataExternHTW(){ //Datei aufrufen
+    //Ruft die daten vom externen HTW-Webserver
+    async setDataExternHTW(){
 
         const id = this.randomInt(0, 124);
 
@@ -271,7 +276,7 @@ class Presenter {
             }
         }else{
             let frag = this.getDataController().data[this.anr];
-            if(frag && this.fPunkt < this.getTaskLength()){ //Presenter.maxFehler
+            if(frag && this.fPunkt < this.getTaskLength()){
                 this.v.renderText(frag.a, this.getDataController().type);
                 const mixArray = this.mixArrayNr(4);
                 mixArray.forEach((data,index)=>{
@@ -338,7 +343,7 @@ class View {
     static textmessage = document.getElementById("text_message");
 
     constructor(p) {
-        this.p = p;  // Presenter
+        this.p = p; 
         this.AufgabeContainer = null;
         this.answer = null;
         this.rPunkt = null;
@@ -416,7 +421,7 @@ class View {
         if(!this.p.setTask()){
             this.gameOver("Du hast gewonnen!");
         }else{
-            View.setMessage("Entscheide dich für die passende Antwort!");
+            View.setMessage("Entscheide dich für eine passende Antwort!");
         }
     }
 
