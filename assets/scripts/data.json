@@ -4,14 +4,14 @@
         "type": null,
         "data": [
 
-            {"a":"Welches Land der Erde, ist das größte nach der Fläche?", "l":["China","Deutschland","Frankreich","Russland"], "r":3},    
-            {"a":"Welcher Planet ist der sonnennächste?", "l":["Venus","Merkur","Jupiter","Erde"], "r":1},    
+            {"a":"Welches Land der Erde, ist das Größte nach der Fläche?", "l":["Russland","Deutschland","Frankreich","China"], "r":0},    
+            {"a":"Welcher Planet ist der sonnennächste?", "l":["Merkur","Venus","Jupiter","Erde"], "r":0,    
             {"a":"Wer malte die Mona Lisa?", "l":["Leonardo da Vinci","Karl Marx","Elon Musk","Wladimir Putin"], "r":0},    
             {"a":"Wann wurde Karl der Große geboren?", "l":["747","828","650","1150"], "r":0},
-            {"a":"In welchem Jahr fiel die Berliner Mauer?", "l":["2000","2010","1989","1950"], "r":2},                
+            {"a":"In welchem Jahr fiel die Berliner Mauer?", "l":["1989","2010","2000","1950"], "r":0},                
             {"a":"Wer hat das Periodensystem der Elemente entwickelt?", "l":["Dmitri Mendelejew","Isaac Newton","Marie Curie","Albert Einstein"], "r":0},
-            {"a":"Wie heißt die Hauptstadt von Australien?", "l":["Paris","Berlin","Canberra","Helsinki"], "r":2},    
-            {"a":"Wer schrieb 'Der Herr der Ringe'?", "l":["Steven Spielberg","Christopher Nolan","J.R.R. Tolkien","Dua Lipa"], "r":2},    
+            {"a":"Wie heißt die Hauptstadt von Australien?", "l":["Canberra","Berlin","Paris","Helsinki"], "r":0},    
+            {"a":"Wer schrieb 'Der Herr der Ringe'?", "l":["J.R.R. Tolkien","Christopher Nolan","Steven Spielberg","Dua Lipa"], "r":0},    
             {"a":"Was war das erste Lebewesen im Weltraum?", "l":["Laika (ein Hund)","Yuri Gagarin","Neil Armstrong","Buzz Aldrin"], "r":0},
             {"a":"Wann wurde der Erfinder Nikola Tesla geboren?", "l":["1856","2000","1950","1933"], "r":0} 
                         
@@ -27,9 +27,9 @@
             {"a":"Was ist das Hauptziel von HTTPS?", "l":["Verbesserung der Sicherheit durch Verschlüsselung","Beschleunigung der Datenübertragung","Erhöhung der Kompatibilität mit älteren Browsern","Optimierung der Serverleistung"], "r":0},
             {"a":"Was bedeutet DNS?", "l":["Domain Name System","Data Network Services","Digital Network Security","Dynamic Network Solutions"], "r":0},
             {"a":"Was bedeutet die Abkürzung HTTP?", "l":["Hoher Tannen Traum der Polizei","Hypertext Transfer Protocol","Hyperlink Text Transfer Protocol","Hypertext Transfer Process"], "r":1},
-            {"a":"Welche Programmiersprache wird hauptsächlich für Webentwicklungen verwendet?", "l":["Python","Java","JavaScript","C++"], "r":2},
-            {"a":"Welches Protokoll wird häufig für sichere Datenübertragungen im Internet verwendet?", "l":["HTTP","HTTPS","SMTP","FTP"], "r":1},
-            {"a":"Was ist ein 'Cookie' im Zusammenhang mit dem Internet?", "l":["Kekse","Ein Browser Plugin","Virus","Ein Datensatz der vorübergehend auf dem Rechner des Nutzers gespeichert wird"], "r":3},
+            {"a":"Welche Programmiersprache wird hauptsächlich für Webentwicklungen verwendet?", "l":["JavaScript","Java","Python","C++"], "r":0},
+            {"a":"Welches Protokoll wird häufig für sichere Datenübertragungen im Internet verwendet?", "l":["HTTPS","HTTP","SMTP","FTP"], "r":0},
+            {"a":"Was ist ein 'Cookie' im Zusammenhang mit dem Internet?", "l":["Ein Datensatz der vorübergehend auf dem Rechner des Nutzers gespeichert wird","Ein Browser Plugin","Virus","Kekse"], "r":0},
             {"a":"Welches HTML-Tag wird verwendet, um einen Absatz zu erstellen?", "l":["<p>","<Absatz>","<h1>","<h2>"], "r":0},
             {"a":"Was ist ein DNS-Server?", "l":["Ein Server der E-Mails speichert","Ein Server der Daten sichert","Ein Server, der IP-Adressen in Domainnamen umwandelt","Ein Server für Webseiten"], "r":0}      
 
@@ -40,16 +40,16 @@
         "type": 1,
         "data": [
             
-            {"a":"√144", "l":["100","12","13","25"], "r":1},
+            {"a":"√144", "l":["12","100","13","25"], "r":0},
             {"a":"5 + (3 * 2)", "l":["11","13","14","424"], "r":0},
             {"a":"x^2+x^2", "l":["2x^2","x^4","x^8","2x^4"], "r":0},
-            {"a":"2^5", "l":["40","45","32","25"], "r":2},
+            {"a":"2^5", "l":["32","45","40","25"], "r":0},
             {"a":"∫(2x + 3) dx", "l":["x^2 + 3x + C","x^2 + 3x^2 + C","x^2 + 3x + 3C","x^3 + 3x + C"], "r":0},
             {"a":"√64", "l":["8","13","20","125"], "r":0},
             {"a":"x^2*x^2", "l":["x^4","x^2","2x^2","4x"], "r":0},
-            {"a":"√169", "l":["35","13","100","1000"], "r":1},
-            {"a":"2x^3 - 5x^2 + 3x - 7", "l":["x^2 - 2x + 1","2x^3 + 3x^2 - 4x + 1","x^3 - 2x^2 + 3x - 1","2x^3 - 5x^2 + 3x - 7"], "r":3},
-            {"a":"√49", "l":["2","4","1","7"], "r":3}
+            {"a":"√169", "l":["13","35","100","1000"], "r":0},
+            {"a":"2x^3 - 5x^2 + 3x - 7", "l":["2x^3 - 5x^2 + 3x - 7","x^3 - 2x^2 + 3x - 1","x^2 - 2x + 1","2x^3 + 3x^2 - 4x + 1"], "r":0},
+            {"a":"√49", "l":["7","4","1","2"], "r":0}
         ]
     },
     {
@@ -58,9 +58,9 @@
         "data": [
             {"a":["C/4"], "l":["C","D","E","H"], "r":0},
             {"a":["C/4", "E/4", "G/4"], "l": ["C", "H", "F", "D"], "r":0},
-            {"a":["D/4", "F/4", "A/4"], "l": ["A", "B", "C", "D"], "r":1},
-            {"a":["F/4", "A/4", "C/5"], "l": ["G", "H", "I", "J"], "r":3},
-            {"a":["G/4", "B/4", "D/5"], "l": ["K", "L", "M", "N"], "r":1},
+            {"a":["D/4", "F/4", "A/4"], "l": ["B", "A", "C", "D"], "r":0},
+            {"a":["F/4", "A/4", "C/5"], "l": ["J", "H", "I", "G"], "r":0},
+            {"a":["G/4", "B/4", "D/5"], "l": ["L", "K", "M", "N"], "r":0},
             {"a":["A/4", "C/5", "E/5"], "l": ["O", "P", "Q", "R"], "r":0}
         ]
     },
