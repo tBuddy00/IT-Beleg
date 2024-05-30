@@ -36,7 +36,7 @@ class Model {
                         this.jsonDataIntern = data;
                         resolve(data);
                     } else {
-                        reject(new Error('Failed to fetch data'));
+                        reject(new Error('Daten konnten nicht geladen werden!'));
                     }
                 }
             }.bind(this);
@@ -215,6 +215,7 @@ class Presenter {
         }
     }
 
+    //Für die Externen Fragen notwendig
     async setTaskTyp(typ){ 
         View.setMessage("Lädt Daten *Fahrstuhl Musik*...");
         this.typ = typ;
