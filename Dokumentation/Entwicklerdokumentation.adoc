@@ -1,0 +1,28 @@
+:doctype: Book
+
+= Entwicklerdokumentation für das Web-Quiz-Projekt
+
+*Belegarbeit Internettechnologien*
+
+- *Dozent: Herr Prof. Dr.Ing. Jörg Vogt*
+
+- *Abgabedatum: 02.06.2024* 
+
+- *Bearbeiter: Özer, Taylan*
+
+
+== Inhaltsverzeichnis
+
+=== 1.Projektübersicht
+=== 2. Projektstruktur
+=== 3.Dateien und Ordner
+==== 3.1 index.html
+==== 3.2 CSS
+==== 3.3 JavaScript
+==== 3.4 JSON
+=== 8.Funktionalitäten
+=== 9.Technologien
+=== 10.Nutzung
+
+include::../Dokumentation\Anwenderdokumentation.adoc[leveloffset =+ 1]
+=== 11.Erweiterungsmöglichkeiten
