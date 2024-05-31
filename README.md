@@ -8,13 +8,13 @@ Entwicklerdokumentation für das Web-Quiz-Projekt
 
 Inhaltsverzeichnis
 
-1.Projektübersicht
+1. Projektübersicht
 
 Das Web-Quiz-Projekt ist ein interaktives, webbasiertes Quizspiel, das in vier Themenbereiche unterteilt ist: Allgemeinwissen, Internettechnologien, Mathematik und Notenlehre. Ziel des Projekts ist es, Benutzern die Möglichkeit zu geben, ihr Wissen in diesen Bereichen auf unterhaltsame Weise zu testen und zu erweitern. Das Quiz ist modular aufgebaut und nutzt moderne Webtechnologien für eine optimale Benutzererfahrung. Für das Design der Website wird eine CSS-Datei (mvp.css) verwendet, die für ein klares und ansprechendes Layout sorgt. Die Fragen und Antworten sind in einer JSON-Datei (data.JSON)
 gespeichert, die sowohl lokale Fragen als auch externe Fragen von einem HTW-Webserver einbindet. Die JavaScript-Dateien (main.js und mvp.js) enthalten die Hauptfunktionen des Spiels, wie das Laden der Fragen, die Verwaltung des Spielablaufs und die Anpassung der mathematischen Darstellungen mit KaTeX. Ein Manifest-Ordner sorgt für die Erstellung eines Webicons, um die Benutzerfreundlichkeit auf mobilen Geräten zu verbessern. Das Projekt beinhaltet auch eine umfassende Dokumentation, die
 sowohl eine Anwenderdokumentation als auch eine Entwicklerdokumentation umfasst. Die index.html-Datei ist die zentrale Datei des Projekts und integriert alle notwendigen Ressourcen und Skripte. Insgesamt bietet das Web-Quiz-Projekt eine gut strukturierte, erweiterbare und benutzerfreundliche Plattform für Wissensspiele im Web.
 
-2.Dateien und Ordner
+2. Dateien und Ordner
   
 - 2.1 index.html
 
@@ -36,19 +36,19 @@ Die mvp.js-Datei implementiert das Model-View-Presenter (MVP) Pattern für das W
 Klasse koordiniert die Logik, darunter die Auswahl und Mischung der Fragen, das Verwalten des Timers und das Überprüfen der Antworten. Die View-Klasse ist für die Darstellung der 2 Benutzeroberfläche verantwortlich, einschließlich des Menüs, der Fragen und der Antwortbuttons. Beim Start eines Quiz wird die Benutzeroberfläche entsprechend eingerichtet, und die Fragen
 werden aus dem Modell abgerufen und angezeigt. Das System unterstützt sowohl Multiple-Choice-Fragen als auch externe Fragen, die vom HTW-Server geladen und überprüft werden. Die Interaktion mit den Fragen erfolgt durch Anklicken von Antwortbuttons, wobei der Presenter die Richtigkeit der Antworten überprüft und die Punktzahl entsprechend aktualisiert. Bei falschen Antworten oder abgelaufener Zeit wird das Spiel beendet und die entsprechenden Nachrichten angezeigt.
 
-- 3 JSON
+3. JSON
 
 Diese Sammlung umfasst vier thematische Quizbereiche und einen Bereich für externe Fragen. Der Bereich "Allgemeinwissen" enthält Fragen zu verschiedenen Themen wie Geographie, Geschichte und berühmten Persönlichkeiten, um das Allgemeinwissen zu testen. "Internettechnologie" fokussiert sich auf technisches Wissen rund um das Internet, einschließlich Protokolle,
 Sicherheitsmechanismen und Webentwicklung. Der Bereich "Mathematik" stellt mathematische Aufgaben, die grundlegende Rechenoperationen und mathematische Konzepte abdecken. Im Abschnitt "Notenlehre" werden musikalische Noten und Akkorde abgefragt, um das Verständnis der Musiktheorie zu prüfen. Der Bereich "Externe HTW-Fragen" ist für spezifische Fragen von einem externen Server der HTW gedacht und woraus bereits vorher hochgeladene Fragen sich zusätzlich in das Web-Quiz hineinholen lassen.
 
-- 4.Funktionalitäten
+ 4. Funktionalitäten
 
 • Quizfragen zu verschiedenen Themenbereichen beantworten
 • Auswahl von Antworten aus mehreren vorgegebenen Optionen
 • Speichern und Auswerten der richtigen Antworten
 • Integration externer Fragen in das bestehende Quizsystem
 
-- 5.Technologien
+5. Technologien
 
 • Microsoft Visual Studio Code (Entwicklungsumgebung),
 • Ajax-Schnittstelle (HTW-Server),
@@ -56,10 +56,10 @@ Sicherheitsmechanismen und Webentwicklung. Der Bereich "Mathematik" stellt mathe
 • Vexflow,
 • (Browser: Opera, Google Chrome)
 
-- 6.Nutzung
+6. Nutzung
 
   Siehe Anwenderdokumentation im Ordner Dokumentation
 
-- 7.Erweiterungsmöglichkeiten
+7. Erweiterungsmöglichkeiten
 
 Dieses Projekt bietet eine solide Grundlage für ein webbasiertes Quiz, das leicht erweitert und an verschiedene Anforderungen angepasst werden kann. Die modulare Struktur ermöglicht eine einfache Wartung und Erweiterung des Codes, während die Verwendung von Standardtechnologien wie HTML, CSS und JavaScript eine breite Kompatibilität sicherstellt. Durch die Einbindung von Katex und VexFlow können komplexe mathematische und musikalische Inhalte ansprechend dargestellt werden. Für zukünftige Entwicklungen könnten zusätzliche Features wie Benutzeranmeldungen, erweiterte Statistikfunktionen und soziale Features (z.B. Teilen von Ergebnissen) implementiert werden, um die Benutzererfahrung weiter zu verbessern.
