@@ -51,8 +51,9 @@ Jede Fragestellung bietet vier Auswahlmöglichkeiten, von denen nur eine immer r
 
 *Verbesserungsvorschläge:*
 
-Im allgemeinen lässt sich folgendes zum Thema Verbesserungen sagen: Eine bessere 
-Strukturierung des CSS-Designs ist durchaus denkbar, wenn man viel Wert auf die optische Ansicht und die User-Experience legt.
+Dieses Projekt bietet eine solide Grundlage für ein webbasiertes Quiz, das leicht erweitert und an verschiedene Anforderungen angepasst werden kann. Die modulare Struktur ermöglicht eine einfache Wartung und Erweiterung des Codes, während die Verwendung von Standardtechnologien wie HTML, CSS und JavaScript eine breite Kompatibilität sicherstellt. Durch die Einbindung von Katex und VexFlow können komplexe mathematische und musikalische Inhalte ansprechend dargestellt werden.
+
+Für zukünftige Entwicklungen könnten zusätzliche Features wie Benutzeranmeldungen, erweiterte Statistikfunktionen und soziale Features (z.B. Teilen von Ergebnissen) implementiert werden, um die Benutzererfahrung weiter zu verbessern.
 
 *Bekannte Probleme bzw. Auffälligkeiten:*
  
