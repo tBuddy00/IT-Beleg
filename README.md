@@ -58,7 +58,7 @@ Sicherheitsmechanismen und Webentwicklung. Der Bereich "Mathematik" stellt mathe
 
 6. Nutzung
 
-  Siehe Anwenderdokumentation im Ordner Dokumentation
+Siehe Anwenderdokumentation im Ordner Dokumentation.
 
 7. Erweiterungsmöglichkeiten
 
